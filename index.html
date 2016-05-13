@@ -1,0 +1,41 @@
+---
+layout: default
+title: Home
+---
+
+<div class="posts">
+  {% for post in site.posts limit:1 %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url | prepend:site.baseurl }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+   <!-- <span class="post-date">{{ post.date | date_to_string }}</span>-->
+
+    {{ post.content }}
+  </div>
+  {% endfor %}
+  <hr />
+  <ul>
+  {% for p in site.posts %}
+        <li><a href="{{ p.url | prepend:site.baseurl }}">{{ p.title }}</a></li>
+  {% endfor %}
+  </ul>
+  
+  <h3>Kingdom City</h3>
+  <ul>
+  {% for k in site.kc %}
+        <li><a href="{{ k.url | prepend:site.baseurl }}">{{ k.title }}</a></li>
+  {% endfor %}
+  </ul>
+  
+  <h3>Epic</h3>
+  <ul>
+  {% for e in site.epic %}
+        <li><a href="{{ e.url | prepend:site.baseurl }}">{{ e.title }}</a></li>
+  {% endfor %}
+  </ul>
+</div>
+
