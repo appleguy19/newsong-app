@@ -15,13 +15,15 @@ url: http://jakeapple.com
 
 # About/Contact
 author:
-name: Jake Apple
-email: jakeapple@gmail.com
-twitter_username: appleguy
-github_username:  appleguy19
+name:    Jake Apple
+email:    jakeapple@gmail.com
+twitter_username:    appleguy
+github_username:    appleguy19
 
 # Build settings
-markdown: kramdown
+markdown:    kramdown
+kramdown:
+  input: GFM
 
 
 # Ministries

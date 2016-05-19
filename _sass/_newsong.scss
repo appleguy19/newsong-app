@@ -1,0 +1,113 @@
+
+/* Container Sizing
+   ========================================================================== */
+
+.container {
+  margin:0 auto 3rem auto;
+  
+  @media screen and (min-width: $viewport-l) {
+    & {max-width: $measure-width; }
+  }
+}
+
+
+/* Typography
+   ========================================================================== */
+
+h1,
+.h1 {
+  margin-bottom: 2rem;
+}
+
+h2,
+.h2 { margin-bottom: 4rem; }
+
+h3,
+.h3 { margin-bottom: 3rem; }
+
+h4,
+.h4 { margin-bottom: 1rem; }
+
+h5,
+.h5 { margin-bottom: 1rem; }
+
+h6,
+.h6 { margin-bottom: .5rem; }
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba($green, 0.1), rgba($green, 1), rgba($green, 0.1));
+}
+
+
+/* Media
+   ========================================================================== */
+   
+/**
+ * Make videos responsive
+ */
+ 
+.video {
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  max-width: 100%;
+  
+  // Modifier class for 16:9 aspect ratio
+  &.sixteen-nine {
+    padding-bottom: 56.25%;
+  }
+  
+  // Modifier class for 4:3 aspect ratio
+  &.four-three {
+    padding-bottom: 75%;
+  }
+}
+
+.video iframe,
+.video object,
+.video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+   
+/**
+ * Make round images
+ */
+ 
+
+.image-round {
+  border-radius: 50%;
+}
+
+
+/* People Lists
+   ========================================================================== */
+
+.pastor-bio {
+  display: flex;
+}   
+
+.people-list {
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-top:4rem;
+  
+  .person {
+    flex-basis: 40%;
+    margin-bottom: 20px;
+    
+    h6 {
+      margin-top:1rem;
+    }
+  }
+}
