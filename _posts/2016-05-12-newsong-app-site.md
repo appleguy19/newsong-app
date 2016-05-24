@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  "Newsong App Site"
 date:   2016-05-12 09:09:55 -0500
 categories:
