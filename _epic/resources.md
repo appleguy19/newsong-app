@@ -5,7 +5,9 @@ title: Resources
 
 ## Parent Cue Weekly
 
-How bout a description of what the weekly parent cue sheet is all about?
+The Parent Cue Talking Points handout fills you in on the verses we're using in our series, the topic we're discussing and provides questions &amp; discussion points so you can continue the conversations we have on Sunday evenings at home!
+
+The Parent Cue podcast is a little different. It informs and inspires parents and leaders to see the big theme for this month.
 
 <div class="media-list">
   <a href="{{ site.baseurl }}/assets/pdf/ParentCue_Weekly.pdf" target="_blank" class="media resource">
@@ -34,6 +36,6 @@ How bout a description of what the weekly parent cue sheet is all about?
 
 ## Resource Links
 
-{% include resource-list.html ministry="epic" %}
+{% include resource-list.html ministry="epic" grouped="true" %}
 
 ---

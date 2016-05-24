@@ -1,5 +1,52 @@
+<!--First we check to see if we want a grouped list
+If we do, then create the group by content type (book, doc, etc.)
+Else, just give us a list sorted by title-->
+
+{% if include.grouped %}
+
+  {% assign grouped = (site.data.[{{include.ministry}}].resources | group_by: 'type' | sort: 'name', 'first') %}
+  
+  {% for group in grouped %}
+  {% assign gsize = group.items | size %}
+  {% assign sorted = group.items | sort: 'title', 'last') %}
+  
+  <h4 class="sorted-list-heading">{{ group.name }}s</h4>
+  
+  <div class="media-list">
+    {% for item in sorted %}
+      {% if item.url %}
+        <a href="{{ item.url }}" target="_blank" class="media resource">
+      {% else %}
+        <a href="{{ site.baseurl }}/assets/pdf/{{ item.filename }}" target="_blank" class="media resource">
+      {% endif %}
+        <div class="media-figure">
+          <svg class="icon--white">
+            {% case item.type %}
+            {% when 'book' %}
+              <use xlink:href="{{ site.baseurl }}/assets/icons.svg#book" />
+            {% when 'music' %}
+              <use xlink:href="{{ site.baseurl }}/assets/icons.svg#music" />
+            {% when 'handout' %}
+              <use xlink:href="{{ site.baseurl }}/assets/icons.svg#doc" />
+            {% else %}
+              <use xlink:href="{{ site.baseurl }}/assets/icons.svg#web" />
+            {% endcase %}
+          </svg>
+        </div>
+        <div class="media-body">
+           <h6 class="m0 p0">{{ item.title }}</h6>
+         </div>
+      </a>
+    {% endfor %}
+  </div>
+  
+
+  {% endfor %}
+
+{% else %}
+
+{% assign sorted = (site.data.[{{include.ministry}}].resources | sort: 'title', 'last') %}
 <div class="media-list">
-  {% assign sorted = (site.data.[{{include.ministry}}].resources | sort: 'title', 'last') %}
   {% for item in sorted %}
     {% if item.url %}
       <a href="{{ item.url }}" target="_blank" class="media resource">
@@ -13,7 +60,7 @@
             <use xlink:href="{{ site.baseurl }}/assets/icons.svg#book" />
           {% when 'music' %}
             <use xlink:href="{{ site.baseurl }}/assets/icons.svg#music" />
-          {% when 'doc' %}
+          {% when 'handout' %}
             <use xlink:href="{{ site.baseurl }}/assets/icons.svg#doc" />
           {% else %}
             <use xlink:href="{{ site.baseurl }}/assets/icons.svg#web" />
@@ -26,3 +73,5 @@
     </a>
   {% endfor %}
 </div>
+
+{% endif %}
