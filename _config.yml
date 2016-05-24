@@ -30,4 +30,6 @@ kramdown:
 collections:
   kc:
     output: true 
+  epic:
+    output: true
 

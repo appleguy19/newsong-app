@@ -12,7 +12,7 @@
 .flt--right  { float: right;  }
 .flt--none   { float: none;   }
 
-.center { margin: auto auto; }
+.center { display:block; margin: auto auto; }
 
 .txt--center { text-align: center; }
 .txt--right  { text-align: right;  }

@@ -1,0 +1,13 @@
+<div class="media-list">
+  {% for person in site.data.[{{include.ministry}}].people %}
+    {% unless person.pastor %}
+    <div class="media--vertical person">
+      <img class="media-figure image-round center" src="{{person.photo}}" alt="{{person.name}}" width="100" />
+         <div class="media-body center">
+           <h5 class="m0 p0 txt--center">{{ person.name }}</h5>
+           <p class="m0 p0 txt--center">{{person.role}}</p>
+         </div>
+    </div>
+    {% endunless %}
+  {% endfor %}
+</div>

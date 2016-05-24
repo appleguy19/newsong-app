@@ -1,0 +1,28 @@
+<div class="media-list">
+  {% assign sorted = (site.data.[{{include.ministry}}].resources | sort: 'title', 'last') %}
+  {% for item in sorted %}
+    {% if item.url %}
+      <a href="{{ item.url }}" target="_blank" class="media resource">
+    {% else %}
+      <a href="{{ site.baseurl }}/assets/pdf/{{ item.filename }}" target="_blank" class="media resource">
+    {% endif %}
+      <div class="media-figure">
+        <svg class="icon--white">
+          {% case item.type %}
+          {% when 'book' %}
+            <use xlink:href="{{ site.baseurl }}/assets/icons.svg#book" />
+          {% when 'music' %}
+            <use xlink:href="{{ site.baseurl }}/assets/icons.svg#music" />
+          {% when 'doc' %}
+            <use xlink:href="{{ site.baseurl }}/assets/icons.svg#doc" />
+          {% else %}
+            <use xlink:href="{{ site.baseurl }}/assets/icons.svg#web" />
+          {% endcase %}
+        </svg>
+      </div>
+      <div class="media-body">
+         <h6 class="m0 p0">{{ item.title }}</h6>
+       </div>
+    </a>
+  {% endfor %}
+</div>

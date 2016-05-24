@@ -12,3 +12,28 @@
 .media .media-body {
   flex: 1 0 0;
 }
+
+.media--vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+  .media-figure {
+    margin-bottom: .5em;
+  }
+  
+  .media-body {
+    flex: 1 0 0;
+  }
+}
+
+.media-list {
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-top: 2rem;
+  
+  a {
+    text-decoration: none;
+  }
+}
