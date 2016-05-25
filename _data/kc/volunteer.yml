@@ -7,7 +7,7 @@
   type: general
   
 - title: Creative Team
-  description: Responsible for bringing the monthly theme to life by creating a fun, kid-friendly environments; (stage decorations, large group room decorations, etc.)
+  description: Responsible for bringing the monthly theme to life by creating fun, kid-friendly environments; (stage decorations, large group room decorations, etc.)
   type: general
   
 - title: Worship Team
@@ -15,7 +15,11 @@
   type: general
 
 - title: Tech Team
-  description: Works together to provide lighting, audio, video and graphics, during large group
+  description: Works together to provide lighting, audio, video and graphics during large group
+  type: general
+  
+- title: Junior Leader
+  description:  Middle schoolers who serve in various roles throughout Kingdom City
   type: general
   
 - title: Small Group Leader
@@ -27,7 +31,7 @@
   type: prek
   
 - title: Small Group Leader
-  description: Serves as the primary model or teacher for a group of up to 10 kids; stays with the same group throughout the school year; encourages spiritual growth, relationships, discussion and other small group activities provided in the curriculum. Serves alongside a co-small group leader either every week or every other week. Age groups -  Kindergarten & 1st grade; 2nd & 3rd grades; 4th & 5th grades
+  description: Serves as the primary model or teacher for a group of up to 10 kids; stays with the same group throughout the school year; encourages spiritual growth, relationships, discussion and other small group activities provided in the curriculum. Serves alongside a co-small group leader either every week or every other week. Age groups -  Kindergarten & 1st; 2nd & 3rd; 4th & 5th 
   type: elementary
   
 - title: Classroom Assistant

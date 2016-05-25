@@ -5,7 +5,7 @@ title: Volunteer
 
 ## Opportunities
 
-I feel like we need a short, "We'd love for you to join the team" type paragraph here. Or maybe an image or something?
+Kingdom City can't run without volunteers! We'd love for you to join us as we inspire and influence the faith and character of the next generation.
 
 ### General
 
@@ -16,7 +16,7 @@ I feel like we need a short, "We'd love for you to join the team" type paragraph
 {% include accordion.html ministry="kc" filter="prek" %}
 
 
-### Elementary <small>Kindergarten to 5th Grade</small>
+### Elementary <small>K to 5th Grade</small>
 
 {% include accordion.html ministry="kc" filter="elementary" %}
 

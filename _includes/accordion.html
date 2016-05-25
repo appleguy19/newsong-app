@@ -1,7 +1,11 @@
 <div class="accordion">
-  {% assign sorted = (site.data.[{{include.ministry}}].volunteer | where:"type",{{include.filter}}) %}
+  {% if include.filter %}
+    {% assign sorted = (site.data.[{{include.ministry}}].volunteer | where:"type",{{include.filter}}) %}
+  {% else %}
+    {% assign sorted = (site.data.[{{include.ministry}}].volunteer) %}
+  {% endif %}
   {% for item in sorted %}
-    {% assign id = {{item.description.size | times:item.type.size | prepend:'panel'}} %}
+    {% assign id = {{item.description.size | times:item.type.size | times:item.title.size | prepend:'panel'}} %}
   
     <div>
       <input type="checkbox" name="panel" id="{{id}}">
