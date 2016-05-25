@@ -40,7 +40,7 @@ We meet on <span class="bold">Sunday evenings from 6-7:30pm in the Fellowship Ha
   {% for person in site.data.epic.people %}
     {% if person.pastor %}  
         {% comment %}<img class="media-figure image-round" src="{{ site.baseurl }}/assets/images/{{person.photo}}" alt="{{person.name}}" width="150" />{% endcomment %}
-        <img class="media-figure image-round" src="http://placehold.it/200x200" alt="{{person.name}}" width="150" />
+        <img class="media-figure image-round" src="{{ site.baseurl }}/assets/images/{{person.photo}}" alt="{{person.name}}" width="150" />
         <div class="media-body">
           <h4>
             <a href="mailto:{{person.email}}">{{ person.name }}</a>
