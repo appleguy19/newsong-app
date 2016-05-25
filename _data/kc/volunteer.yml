@@ -1,0 +1,35 @@
+- title: Team Lead
+  description: Greets families; becomes familiar with check-in/check-out system and helps families; collects information from new families, introduces new families to Kingdom City and their small group leader, assists with security, and during service, supports overall operation and logistics of Kingdom City
+  type: general
+  
+- title: Large Group Leader
+  description: Serves as the emcee; welcomes the kids; makes transitions - worship, Bible story, video presentations; leads kids through large group lesson and materials
+  type: general
+  
+- title: Creative Team
+  description: Responsible for bringing the monthly theme to life by creating a fun, kid-friendly environments; (stage decorations, large group room decorations, etc.)
+  type: general
+  
+- title: Worship Team
+  description: Leads children and small group leaders in a fun and meaningful time of worship through music (sing along and hand-motions)
+  type: general
+
+- title: Tech Team
+  description: Works together to provide lighting, audio, video and graphics, during large group
+  type: general
+  
+- title: Small Group Leader
+  description: Serves as the primary model or teacher for a group of up to 10 kids; stays with the same group throughout the school year; encourages spiritual growth, relationships, discussion and other small group activities provided in the curriculum. Serves alongside a co-small group leader either every week or every other week. Age groups - Infants/Toddlers or Pre-K
+  type: prek
+
+- title: Classroom Assistant
+  description: Assists the lead small group leader and provides care to the children who attend service
+  type: prek
+  
+- title: Small Group Leader
+  description: Serves as the primary model or teacher for a group of up to 10 kids; stays with the same group throughout the school year; encourages spiritual growth, relationships, discussion and other small group activities provided in the curriculum. Serves alongside a co-small group leader either every week or every other week. Age groups -  Kindergarten & 1st grade; 2nd & 3rd grades; 4th & 5th grades
+  type: elementary
+  
+- title: Classroom Assistant
+  description: Assists the lead small group leader and provides care to the children who attend service
+  type: elementary

@@ -1,0 +1,16 @@
+<div class="accordion">
+  {% assign sorted = (site.data.[{{include.ministry}}].volunteer | where:"type",{{include.filter}}) %}
+  {% for item in sorted %}
+    {% assign id = {{item.description.size | times:item.type.size | prepend:'panel'}} %}
+  
+    <div>
+      <input type="checkbox" name="panel" id="{{id}}">
+      <label for="{{id}}">{{ item.title }}</label>
+      <div class="accordion-content">
+        <p class="accordion-header">{{ item.title }}</p>
+        <p class="accordion-body">{{ item.description }}</p>
+      </div>
+    </div>
+  {% endfor %}
+
+</div>
