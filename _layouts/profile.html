@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+{% assign p = site.data.people[{{page.person}}] %}
+
+
+<!--We'll put the basics up here in a green background. Basics like: Photo, Name, Role-->
+<div class="profile-basics">
+  <div class="grd">
+    <div class="grd-row">
+      <div class="grd-row-col-6">
+        <img src="{{ site.baseurl }}/assets/images/{{ p.photo }}" alt="{{ p.name }}" />
+      </div>
+    </div>
+  </div>
+</div>
+
+{{ page.title }}
+
+<div class="grd">
+  <div class="grd-row">
+    <div class="grd-row-col-6">
+      {{ content }}
+    </div>
+  </div>
+</div>

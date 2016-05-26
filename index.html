@@ -24,6 +24,13 @@ title: Home
   {% endfor %}
   </ul>
   
+  <h3>People</h3>
+  <ul>
+  {% for p in site.people %}
+        <li><a href="{{ p.url | prepend:site.baseurl }}">{{ p.title }}</a></li>
+  {% endfor %}
+  </ul>
+  
   <h3>Kingdom City</h3>
   <ul>
   {% for k in site.kc %}

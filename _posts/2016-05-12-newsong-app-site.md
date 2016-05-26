@@ -16,3 +16,4 @@ Here is what I'm thinking so far:
 - `_kc` would be Kingdom City
 - `_epic` would be epic
 - `_church` could be church wide information.
+- `_people` will contain people profile pages. *I wasn't planning on this, but because Epic leaders wrote up bios and fun facts, we'll give it a shot*
