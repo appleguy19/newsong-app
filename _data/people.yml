@@ -2,18 +2,21 @@ grant:
   name: Grant Claunch
   pastor: true 
   title: Youth Pastor
+  ministry: epic
   email: grant.claunch@newsong-fellowship.com
   role: Middle School Guys Leader
   photo: Grant.jpg
   
 mikhaela: 
   name: Mikhaela Romoser
+  ministry: epic
   email: 
   role: High School Girls Leader
   photo: Mikhaela.jpg
   
 karagan: 
   name: Karagan Something
+  ministry: epic
   email: 
   role: Middle School Girls Leader
   photo: Karagan.jpg
