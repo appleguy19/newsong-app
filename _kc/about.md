@@ -20,21 +20,8 @@ title: About
 
 ## Contact
 
-<div class="pastor-bio">
-  <div class="media center">
-  {% for person in site.data.kc.people %}
-    {% if person.pastor %}  
-        <img class="media-figure image-round" src="{{ site.baseurl }}/assets/images/{{person.photo}}" alt="{{person.name}}" width="150" />
-        <div class="media-body">
-          <h4>
-            <a href="mailto:{{person.email}}">{{ person.name }}</a>
-          </h4>
-          <p>{{person.role}}</p>
-        </div> 
-    {% endif %}
-  {% endfor %}
-  </div>
-</div>
+
+{% include pastor-bio.html ministry="kc" %}
 
 
 {% comment %}{% include people-list.html ministry="kc" %}{% endcomment %}

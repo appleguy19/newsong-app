@@ -1,23 +1,24 @@
 <div class="media-list">
-  {% for person in site.data.[{{include.ministry}}].people %}
-    {% unless person.pastor %}
+  {% assign people = site.data.people | where:"ministry", include.ministry %}
+  {% for person in people %}
+    <!-- Used to do an unless person.pastor -->
     
     {%if {{include.links}} %}
-    <a href="">
+      <a href="{{site.baseurl}}/people/{{person.profile}}" class="profile-link">
     {% endif %}
     
     <div class="media--vertical person">
-      <img class="media-figure image-round center" src="{{ site.baseurl }}/assets/images/{{person.photo}}" alt="{{person.name}}" width="100" />
-         <div class="media-body center">
-           <h5 class="m0 p0 txt--center">{{ person.name }}</h5>
-           <p class="m0 p0 txt--center">{{person.role}}</p>
-         </div>
+      <img class="media-figure image-round center profile-thumbnail" src="{{ site.baseurl }}/assets/images/{{person.photo}}" alt="{{person.name}}" width="100" height="100" />
+       <div class="media-body center">
+         <h5 class="m0 p0 txt--center">{{person.name}}</h5>
+         <p class="m0 p0 txt--center">{{person.role | newline_to_br}}</p>
+       </div>       
     </div>
     
     {%if {{include.links}} %}
-    </a>
+      </a>
     {% endif %}
-    
-    {% endunless %}
+      
+    <!-- endunless -->
   {% endfor %}
 </div>

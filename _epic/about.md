@@ -35,24 +35,12 @@ We meet on <span class="bold">Sunday evenings from 6-7:30pm in the Fellowship Ha
 
 ## Contact
 
-<div class="pastor-bio">
-  <div class="media center">
-  {% for person in site.data.epic.people %}
-    {% if person.pastor %}  
-        {% comment %}<img class="media-figure image-round" src="{{ site.baseurl }}/assets/images/{{person.photo}}" alt="{{person.name}}" width="150" />{% endcomment %}
-        <img class="media-figure image-round" src="{{ site.baseurl }}/assets/images/{{person.photo}}" alt="{{person.name}}" width="150" />
-        <div class="media-body">
-          <h4>
-            <a href="mailto:{{person.email}}">{{ person.name }}</a>
-          </h4>
-          <p>{{person.role}}</p>
-        </div> 
-    {% endif %}
-  {% endfor %}
-  </div>
-</div>
+{% include pastor-bio.html ministry="epic" %}
 
+---
 
-{% include people-list.html ministry="epic" %}
+## Meet the Leaders
+
+{% include people-list.html ministry="epic" links="true" %}
 
 ---

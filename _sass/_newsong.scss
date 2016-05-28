@@ -128,14 +128,28 @@ hr {
 
 .pastor-bio {
   display: flex;
+  margin-bottom:2rem;
 }   
-
-.person {
-  flex-basis: 50%;
+.profile-thumbnail {
+  padding:.15rem;
+  border: 2px solid $green;
+}
+.profile-link {
+  text-decoration:none;
+  flex-basis: 100%;
   margin-bottom: 2rem;
+  
+  @media screen and (min-width: $viewport-m) {
+    & {flex-basis: 50%; }
+  }
   
   @media screen and (min-width: $viewport-l) {
     & {flex-basis: 33%; }
+  }
+  
+  h5, p {
+    text-decoration:none;
+    color:$font-color;
   }
 }
 
