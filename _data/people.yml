@@ -1,0 +1,49 @@
+grant: 
+  name: Grant Claunch
+  pastor: true
+  title: Youth Pastor
+  email: grant.claunch@newsong-fellowship.com
+  role: Middle School Guys Leader
+  photo: Grant2.jpg
+  profile: grant.html
+  ministry: epic
+  
+lindsey:
+  name: Lindsey Apple, MSW
+  pastor: true
+  title: Associate Pastor
+  email: lindsey.apple@newsong-fellowship.com
+  photo: Lindsey.jpg
+  ministry: kc
+  
+mikhaela: 
+  name: Mikhaela Romoser
+  email: 
+  role: High School Girls Leader
+  photo: Mikhaela.jpg
+  profile: mikhaela.html
+  ministry: epic
+  
+karagan: 
+  name: Karagan Taylor
+  email: 
+  role: Middle School Girls Leader
+  photo: Karagan.jpg
+  profile: karagan.html
+  ministry: epic
+  
+brittany: 
+  name: Brittany Harl
+  email: 
+  role: High School Girls Leader
+  photo: Brittany.jpg
+  profile: brittany.html
+  ministry: epic
+  
+josiah: 
+  name: Josiah Romoser
+  email: 
+  role: High School Guys Leader
+  photo: Josiah.jpg
+  profile: josiah.html
+  ministry: epic

@@ -32,4 +32,6 @@ collections:
     output: true 
   epic:
     output: true
+  people:
+    output: true
 

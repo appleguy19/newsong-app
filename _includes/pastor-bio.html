@@ -1,0 +1,18 @@
+{% assign people = site.data.people | where:"ministry", include.ministry %}
+{% for person in people %}
+  {% if person.pastor %} 
+  
+<div class="pastor-bio">
+  <div class="media center">
+    <img class="media-figure image-round profile-thumbnail" src="{{ site.baseurl }}/assets/images/{{person.photo}}" alt="{{person.name}}" width="150" />
+    <div class="media-body">
+      <h4>
+        <a href="mailto:{{person.email}}">{{ person.name }}</a>
+      </h4>
+      <p>{{person.title}}</p>
+    </div> 
+  </div>
+</div>
+
+  {% endif %}
+{% endfor %}
