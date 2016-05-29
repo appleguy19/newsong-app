@@ -140,14 +140,32 @@ hr {
   margin-bottom: 2rem;
   
   @media screen and (min-width: $viewport-m) {
-    & {flex-basis: 50%; }
+    & { 
+      flex-basis: 50%;
+      
+      /* Shift to a media--vertical style, but I can't do extend becuase of the media query scope*/
+      .media {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+        .media-figure {
+          margin-bottom: .5em;
+          margin:0 auto;
+        }
+        
+        .media-body {
+          flex: 1 0 0;
+        }
+      }
+    }
   }
   
   @media screen and (min-width: $viewport-l) {
     & {flex-basis: 33%; }
   }
   
-  h5, p {
+  p {
     text-decoration:none;
     color:$font-color;
   }

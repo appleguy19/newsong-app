@@ -38,9 +38,3 @@ We meet on <span class="bold">Sunday evenings from 6-7:30pm in the Fellowship Ha
 {% include pastor-bio.html ministry="epic" %}
 
 ---
-
-## Meet the Leaders
-
-{% include people-list.html ministry="epic" links="true" %}
-
----

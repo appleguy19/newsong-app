@@ -23,7 +23,4 @@ title: About
 
 {% include pastor-bio.html ministry="kc" %}
 
-
-{% comment %}{% include people-list.html ministry="kc" %}{% endcomment %}
-
 ---
