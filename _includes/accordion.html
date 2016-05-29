@@ -9,7 +9,7 @@
   
     <div>
       <input type="checkbox" name="panel" id="{{id}}">
-      <label for="{{id}}">{{ item.title }}</label>
+      <label for="{{id}}">{{ item.title }}<svg class="icon--right"><use xlink:href="{{ site.baseurl }}/assets/icons.svg#arrow" /></svg></label>
       <div class="accordion-content">
         <p class="accordion-header">{{ item.title }}</p>
         <p class="accordion-body">{{ item.description }}</p>

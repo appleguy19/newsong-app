@@ -24,16 +24,22 @@
     transition: all $timing $ease;
     border-left: 10px solid #ccc;
     
-    &:hover {
-      color: $green;
+    svg {
+      transition: all 0.4s cubic-bezier(0.865, 0.14, 0.095, 0.87);
     }
       
   }
   
   input:checked + label {
     color: $green;  
-    border-color: $green;  
+    border-color: $green; 
+    
+    svg {
+      transform: rotate(180deg);
+      fill: $green; 
+    } 
   }
+  
   
   /* Panel Content */
   .accordion-content {
@@ -61,4 +67,12 @@
 input[name='panel']:checked ~ .accordion-content {
   /* Get this as close to what height you expect */
   max-height: 50rem;
+}
+
+.icon--right {
+  width: 20px;
+  position: absolute;
+  height: 20px;
+  right: 20px;
+  top: 40px;
 }
