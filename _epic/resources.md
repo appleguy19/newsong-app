@@ -10,7 +10,7 @@ The Parent Cue Talking Points handout fills you in on the verses we're using in 
 The Parent Cue podcast is a little different. It informs and inspires parents and leaders to see the big theme for this month.
 
 <div class="media-list">
-  <a href="https://www.dropbox.com/s/2w4zi75vlo0a861/ParentCue_Weekly.pdf?dl=0" target="_blank" class="media resource">
+  <a href="{{ site.baseurl }}/assets/pdf/ParentCue_Weekly.pdf" target="_blank" class="media resource">
     <div class="media-figure">
       <svg class="icon--white" height="100" width="100">
         <use xlink:href="{{ site.baseurl }}/assets/icons.svg#doc" />

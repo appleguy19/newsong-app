@@ -11,7 +11,10 @@
       <img class="media-figure image-round center profile-thumbnail" src="{{ site.baseurl }}/assets/images/{{person.photo}}" alt="{{person.name}}" width="100" height="100" />
        <div class="media-body center">
          <h5 class="m0 p0 txt--center">{{person.name}}</h5>
-         <p class="m0 p0 txt--center">{{person.role}}</p>
+         <p class="m0 p0 txt--center">
+           {%if person.pastor %}<strong>{{person.title}}</strong><br/>{% endif %}
+           {{person.role}}
+         </p>
        </div>       
     </div>
     
