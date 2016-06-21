@@ -43,5 +43,7 @@ You can help by <a href="mailto:lindsey.apple@newsong-fellowship.com?subject={{"
     <td>\ˈwȯ-kə-ˌbau̇t\</td>
   </tr>
 </table>
+<p class="txt--center txt--large">a spiritual journey on foot</p>
 
->When you walk, nothing will slow you down. When you run, you won't trip and fall. Hold on to my teaching and don't let it go. Guard it well because it is your life. -Proverbs 4:12-13
+>*When you walk, nothing will slow you down. When you run, you won't trip and fall. Hold on to my teaching and don't let it go. Guard it well because it is your life.*
+<p class="txt--right m0">-Proverbs 4:12-13</p>

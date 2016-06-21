@@ -239,8 +239,15 @@ hr {
   color:$white;
 }
 
-.definition td {
-  width: 33%;
-  text-align:center;
+/* Walkabout Page
+   ========================================================================== */
+   
+   
+.definition {
+  margin-top:0.5rem;
   
+  td {
+    width: 33%;
+    text-align:center;
+  }
 }
