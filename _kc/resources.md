@@ -5,7 +5,7 @@ title: Resources
 
 ### What we're Learning
 
-Our curriculum changes each month. Check out what we're learning for <span id="month" class="bold"></span>.
+Our curriculum changes each month. Check out what we're learning in <span id="month" class="bold"></span>.
 
 
 <div class="media-list">
@@ -16,7 +16,7 @@ Our curriculum changes each month. Check out what we're learning for <span id="m
       </svg>
     </div>
     <div class="media-body">
-       <h6 class="m0 p0">Infant, Toddler, Preschool</h6>
+       <h6 class="m0 p0">Preschool: Infant, Toddler, Pre-K</h6>
      </div>
   </a>
   <a href="https://www.dropbox.com/s/gfku7an726imntt/KC-ParentCue-K5.pdf?raw=1" target="_blank" class="media resource">
@@ -26,7 +26,7 @@ Our curriculum changes each month. Check out what we're learning for <span id="m
       </svg>
     </div>
     <div class="media-body">
-       <h6 class="m0 p0">Kindergarten - 5th Grade</h6>
+       <h6 class="m0 p0">Elementary: Kindergarten - 5<sup>th</sup> Grade</h6>
      </div>
   </a>
 </div>
