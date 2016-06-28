@@ -31,7 +31,7 @@ Elementary (K-5th Grade)
 ---
 
 ### Volunteer Opportunities
-You can help by <a href="mailto:lindsey.apple@newsong-fellowship.com?subject={{"I want to volunteer at Walkabout 2016!" | uri_escape}}&body={{"Hi Lindsey, I would like information about how I can help out with the Newsong Summer Walkabout." | uri_escape}}">volunteering your time</a>, <a href="https://www.facebook.com/events/1072448206168994/">sharing the event</a> with friends, and helping us <a href="https://docs.google.com/spreadsheets/d/1Q8k9nGmzf4rACudmuR31kErXiVjeJCcVX8crYWzEbo4/edit?usp=sharing">gather supplies</a>! We can't embark on this adventure without you!
+You can help by <a href="http://goo.gl/forms/uoJ0jO73csedOCs22">volunteering your time</a>, <a href="https://www.facebook.com/events/1072448206168994/">sharing the event</a> with friends, and helping us <a href="https://docs.google.com/spreadsheets/d/1Q8k9nGmzf4rACudmuR31kErXiVjeJCcVX8crYWzEbo4/edit?usp=sharing">gather supplies</a>! We can't embark on this adventure without you!
 
 ---
 
