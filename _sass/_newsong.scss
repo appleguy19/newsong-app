@@ -182,6 +182,20 @@ hr {
   border: 1px solid $green;
   border-radius: $border-radius;
   
+  &.inverse {
+    // these styles are used on the profile page
+    border-color: #FFFFFF;
+    margin: 1rem;
+    
+    .media-figure {
+      margin-right:0;
+    }
+    
+    .media-body {
+      color: #FFFFFF;
+    }
+  }
+  
   .media-figure {
     background-color: $green;
     line-height: 1rem;

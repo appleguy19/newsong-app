@@ -1,6 +1,6 @@
 <div class="media-list media-list--people">
-  {% assign people = site.data.people | where:"ministry", include.ministry %}
-  {% for person in people %}
+  {% assign people = site.data.people | where:"ministry", include.ministry | sort: 'role', 'first' %}
+  {% for person in people reversed %}
     <!-- Used to do an unless person.pastor -->
     
     {%if {{include.links}} %}

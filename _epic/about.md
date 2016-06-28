@@ -4,7 +4,7 @@ title: About
 ---
 
 
-## Our Hope
+### Our Hope
 
  <blockquote class="italic">He has showed you, O man, what is good. And what does the Lord require of you? To act justly and to love mercy and to walk humbly with your God.
  <p class="txt--right">- Micah 6:8</p>
@@ -27,13 +27,13 @@ title: About
  
 ---
 
-## Details
+### Details
 
 We meet on <span class="bold">Sunday evenings from 6-7:30pm in the Fellowship Hall</span>. A typical Sunday evening includes plenty of games, discussions about God, faith and life, and building relationships with one another in small groups.
 
 ---
 
-## Contact
+### Contact
 
 {% include pastor-bio.html ministry="epic" %}
 

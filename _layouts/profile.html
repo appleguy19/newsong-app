@@ -3,6 +3,7 @@ layout: default
 ---
 
 {% assign p = site.data.people[{{page.person}}] %}
+{% assign names = p.name | split: " " %}
 
 <div class="profile-basics">
   <div class="grd">
@@ -14,7 +15,34 @@ layout: default
     <div class="grd-row">
       <div class="grd-row-col-6">
         <h2 class="profile-name">{{ p.name }}</h2>
+         {%if p.pastor %}<h4 class="profile-role">{{ p.title }} &amp;</h4>{% endif %}
         <h4 class="profile-role">{{ p.role }}</h4>
+      </div>
+    </div>
+    <div class="grd-row">
+      <div class="grd-row-col-3-6">
+        <a href="mailto:{{ p.email }}" rel="nofollow" class="media resource inverse">
+          <div class="media-figure">
+            <svg class="icon--white" height="100" width="100">
+              <use xlink:href="{{ site.baseurl }}/assets/icons.svg#email" />
+            </svg>
+          </div>
+          <div class="media-body">
+             <h6 class="m0 p0">Email {{ names.first }}</h6>
+          </div>
+        </a>
+      </div>
+      <div class="grd-row-col-3-6">
+        <a href="tel:{{ p.phone }}"  rel="nofollow" class="media resource inverse">
+          <div class="media-figure">
+            <svg class="icon--white" height="100" width="100">
+              <use xlink:href="{{ site.baseurl }}/assets/icons.svg#phone" />
+            </svg>
+          </div>
+          <div class="media-body">
+             <h6 class="m0 p0">Call {{ names.first }}</h6>
+          </div>
+        </a>
       </div>
     </div>
   </div>

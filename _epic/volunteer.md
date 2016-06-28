@@ -3,7 +3,7 @@ layout: page
 title: Volunteer
 ---
 
-## Roles & Opportunities
+### Roles & Opportunities
 
 Thinking about serving in youth ministry? That's great! Check out the roles and descriptions below and we'd love to hear from you!
 

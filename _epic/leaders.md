@@ -9,6 +9,6 @@ title: Meet our Leaders
 
 ---
 
-### Interested in Joining the team?
+### Interested in Joining the Team?
 
 <a href="{{ site.baseurl }}/epic/volunteer.html" class="btn--green btn--l w100">See Opportunities</a>

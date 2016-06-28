@@ -3,20 +3,20 @@ layout: page
 title: Volunteer
 ---
 
-## Opportunities
+### Opportunities
 
 Kingdom City can't run without volunteers! We'd love for you to join us as we inspire and influence the faith and character of the next generation.
 
-### General
+#### General
 
 {% include accordion.html ministry="kc" filter="general" %}
 
-### Preschool <small>Birth to Age 5</small>
+#### Preschool <small>Birth to Age 5</small>
 
 {% include accordion.html ministry="kc" filter="prek" %}
 
 
-### Elementary <small>K to 5th Grade</small>
+#### Elementary <small>K to 5th Grade</small>
 
 {% include accordion.html ministry="kc" filter="elementary" %}
 
