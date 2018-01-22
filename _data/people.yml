@@ -1,14 +1,14 @@
-grant: 
+grant:
   name: Grant Claunch
   pastor: true
   title: Youth Pastor
   email: grant@newsong-fellowship.com
   phone: 618-363-8759
-  role: Middle School Guys Leader
+  role: High School Guys Leader
   photo: Grant.jpg
   profile: grant.html
   ministry: epic
-  
+
 lindsey:
   name: Lindsey Apple, MSW
   pastor: true
@@ -17,8 +17,8 @@ lindsey:
   phone:
   photo: Lindsey.jpg
   ministry: kc
-  
-mikhaela: 
+
+mikhaela:
   name: Mikhaela Romoser
   email: mikhaelalynn@gmail.com
   phone: 618-670-4602
@@ -26,8 +26,8 @@ mikhaela:
   photo: Mikhaela.jpg
   profile: mikhaela.html
   ministry: epic
-  
-karagan: 
+
+karagan:
   name: Karagan Taylor
   email: taylorkara195@gmail.com
   phone: 217-710-8992
@@ -35,8 +35,8 @@ karagan:
   photo: Karagan.jpg
   profile: karagan.html
   ministry: epic
-  
-brittany: 
+
+brittany:
   name: Brittany Harl
   email: brittanyharl89@gmail.com
   phone: 618-384-8261
@@ -44,31 +44,12 @@ brittany:
   photo: Brittany.jpg
   profile: brittany.html
   ministry: epic
-  
-josiah: 
-  name: Josiah Romoser
-  email: Josiahromoser@gmail.com
-  phone: 618-407-9981
-  role: High School Guys Leader
-  photo: Josiah.jpg
-  profile: josiah.html
+
+colton:
+  name: Colton Klenke
+  email: cgklenke@gmail.com
+  phone: (618) 920-1565
+  role: Middle School Guys Leader
+  photo: Colton.jpg
+  profile: colton.html
   ministry: epic
-  
-billy: 
-  name: Billy Stevens
-  email: bacon553@yahoo.com
-  phone: 618-806-4495
-  role: High School Guys Leader
-  photo: 
-  profile: 
-  ministry: 
-  
-  
-jacque: 
-  name: Jacque Burns
-  email: jacquedavisburns@gmail.com
-  phone: 618-363-1394
-  role: High School Guys Leader
-  photo: 
-  profile: 
-  ministry: 
