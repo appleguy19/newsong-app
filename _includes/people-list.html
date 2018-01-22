@@ -1,12 +1,12 @@
 <div class="media-list media-list--people">
-  {% assign people = site.data.people | where:"ministry", include.ministry | sort: 'role', 'first' %}
+  {% assign people = site.data.people | where:"ministry", include.ministry | sort: 'pastor', 'first' %}
   {% for person in people reversed %}
     <!-- Used to do an unless person.pastor -->
-    
+
     {%if {{include.links}} %}
       <a href="{{site.baseurl}}/people/{{person.profile}}" class="profile-link">
     {% endif %}
-    
+
     <div class="media person">
       <img class="media-figure image-round center profile-thumbnail" src="{{ site.baseurl }}/assets/images/{{person.photo}}" alt="{{person.name}}" width="100" height="100" />
        <div class="media-body center">
@@ -15,13 +15,13 @@
            {%if person.pastor %}<strong>{{person.title}}</strong><br/>{% endif %}
            {{person.role}}
          </p>
-       </div>       
+       </div>
     </div>
-    
+
     {%if {{include.links}} %}
       </a>
     {% endif %}
-      
+
     <!-- endunless -->
   {% endfor %}
 </div>

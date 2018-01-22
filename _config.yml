@@ -9,14 +9,14 @@
 title: Newsong
 
 description: > # this means to ignore newlines until "baseurl:"
-  Following the way of Jesus, in authentic community, for the good of the world. 
-baseurl: /newsong
-url: http://jakeapple.com
+  Following the way of Jesus, in authentic community, for the good of the world.
+baseurl: 
+url: http://newsong.jakeapple.com
 
 # About/Contact
 author:
 name:    Jake Apple
-email:    jakeapple@gmail.com
+email:    jake@jakeapple.com
 twitter_username:    appleguy
 github_username:    appleguy19
 
@@ -29,9 +29,8 @@ kramdown:
 # Ministries
 collections:
   kc:
-    output: true 
+    output: true
   epic:
     output: true
   people:
     output: true
-

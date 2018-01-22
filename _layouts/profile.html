@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign p = site.data.people[{{page.person}}] %}
+{% assign p = site.data.people[ page.person ] %}
 {% assign names = p.name | split: " " %}
 
 <div class="profile-basics">
