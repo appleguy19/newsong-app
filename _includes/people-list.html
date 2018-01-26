@@ -1,10 +1,12 @@
 <div class="media-list media-list--people">
-  {% assign people = site.data.people | where:"ministry", include.ministry | sort: 'pastor', 'first' %}
-  {% for person in people reversed %}
+  {% assign people = site.data.people | where:"ministry", include.ministry | sort: 'order', 'last' %}
+  {% for person in people %}
     <!-- Used to do an unless person.pastor -->
 
-    {%if {{include.links}} %}
+    {%if {{include.links}} and {{person.profile}} %}
       <a href="{{site.baseurl}}/people/{{person.profile}}" class="profile-link">
+    {% else %}
+      <div class="profile-link">
     {% endif %}
 
     <div class="media person">
@@ -18,8 +20,10 @@
        </div>
     </div>
 
-    {%if {{include.links}} %}
+    {%if {{include.links}} and {{person.profile}} %}
       </a>
+    {% else %}
+      </div>
     {% endif %}
 
     <!-- endunless -->
