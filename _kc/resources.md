@@ -9,7 +9,7 @@ Our curriculum changes each month. Check out what we're learning in <span id="mo
 
 
 <div class="media-list">
-  <a href="https://www.dropbox.com/s/2bjeq61qyi38pv4/KC-ParentCue-PreK.pdf?raw=1" target="_blank" class="media resource">
+  <a href="https://www.dropbox.com/s/seo76jf28wc8xom/KC-ParentCue-PreK.pdf?raw=1" target="_blank" class="media resource">
     <div class="media-figure">
       <svg class="icon--white" height="100" width="100">
         <use xlink:href="{{ site.baseurl }}/assets/icons.svg#doc" />
@@ -19,7 +19,7 @@ Our curriculum changes each month. Check out what we're learning in <span id="mo
        <h6 class="m0 p0">Preschool: Infant, Toddler, Pre-K</h6>
      </div>
   </a>
-  <a href="https://www.dropbox.com/s/gfku7an726imntt/KC-ParentCue-K5.pdf?raw=1" target="_blank" class="media resource">
+  <a href="https://www.dropbox.com/s/wojir5f2kqnio4y/KC-ParentCue-K5.pdf?raw=1" target="_blank" class="media resource">
     <div class="media-figure">
       <svg class="icon--white" height="100" width="100">
         <use xlink:href="{{ site.baseurl }}/assets/icons.svg#doc" />
