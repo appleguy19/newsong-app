@@ -8,7 +8,7 @@ title: Walkabout
 #### When
 
 Wednesday, Thursday & Friday
-July 25<sup>th</sup> - 27<sup>th</sup>
+July 24<sup>th</sup> - 26<sup>th</sup>
 6PM - 8PM
 
 #### Where
@@ -26,12 +26,12 @@ Elementary (K-5th Grade)
 
 ---
 
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSdovzcEXXzernzk6_H9ZspoWolWJCuFHkTrYZEjc-M47hDjZg/viewform?usp=sf_link" class="btn--blue btn--l w100">Register for Walkabout</a>
+<a href="https://forms.gle/AcqTiU575QYiQSfV8" class="btn--blue btn--l w100">Register for Walkabout</a>
 
 ---
 
 ### Volunteer Opportunities
-You can help by <a href="https://docs.google.com/forms/d/e/1FAIpQLSdZ3ojrQFIVzmu-pwTvuwjLCbt-0wfP4Mm8XaVkmdH5FFzpug/viewform?usp=sf_link">volunteering your time</a>, <a href="https://www.facebook.com/events/183159745853275/">sharing the event</a> with friends, and helping us <a href="https://docs.google.com/spreadsheets/d/1Q8k9nGmzf4rACudmuR31kErXiVjeJCcVX8crYWzEbo4/edit?usp=sharing">gather supplies</a>! We can't embark on this adventure without you!
+You can help by <a href="https://forms.gle/qKckJNa7Ua5gmvRF9">volunteering your time</a> and <a href="https://m.facebook.com/events/1117750995073938/">sharing the event</a> with friends! We can't embark on this adventure without you!
 
 ---
 
@@ -40,7 +40,7 @@ You can help by <a href="https://docs.google.com/forms/d/e/1FAIpQLSdZ3ojrQFIVzmu
   <tr>
     <td><em>noun</em></td>
     <td>walk · about</td>
-    <td>\ˈwȯ-kə-ˌbau̇t\</td>
+    <td>\ˈwȯ-kə-ˌbau̇t\</td>
   </tr>
 </table>
 <p class="txt--center txt--large">a spiritual journey on foot</p>
