@@ -1,4 +1,5 @@
 source "https://rubygems.org"
+ruby RUBY_VERSION
 gem 'github-pages'
 
 # This file is here because of this guide from Netlify
