@@ -1,7 +1,7 @@
 grant:
   name: Grant Romoser-Claunch
   pastor: true
-  title: Youth Pastor
+  title: Pastor of Discipleship
   email: grant@newsong-fellowship.com
   phone: 618-363-8759
   role: High School Guys Leader
@@ -27,17 +27,7 @@ mikhaela:
   photo: Mikhaela.jpg
   profile: mikhaela.html
   ministry: epic
-  order: 5
-
-connor:
-  name: Connor Miller
-  email: cmiller56557@gmail.com
-  phone: (618) 696-1169
-  role: Middle School Guys Leader
-  photo: Connor.jpg
-  profile: connor.html
-  ministry: epic
-  order: 9
+  order: 4
 
 brittany:
   name: Brittany Mead
@@ -47,7 +37,7 @@ brittany:
   photo: Brittany.jpg
   profile: brittany.html
   ministry: epic
-  order: 4
+  order: 3
 
 colton:
   name: Colton Klenke
@@ -69,16 +59,6 @@ matt:
   ministry: epic
   order: 2
 
-jake:
-  name: Jake Jenkins
-  email: jrjenkins89@charter.net
-  phone: 618-977-3661
-  role: High School Guys Leader
-  photo: Jake.jpg
-  profile: jake.html
-  ministry: epic
-  order: 3
-
 alexa:
   name: Alexa Moss
   email: Alexamoss93@gmail.com
@@ -87,7 +67,7 @@ alexa:
   photo: Alexa.jpg
   profile: alexa.html
   ministry: epic
-  order: 6
+  order: 5
 
 jacque:
   name: Jacque Burns
@@ -97,4 +77,4 @@ jacque:
   photo: Jacque.jpg
   profile:
   ministry: epic
-  order: 7
+  order: 6
