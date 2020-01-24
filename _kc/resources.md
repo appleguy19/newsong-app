@@ -38,7 +38,7 @@ Our curriculum changes each month. Check out what we're learning in <span id="mo
 The Parent Cue App provides simple <em>cues</em> throughout the week that remind you to pause and make the most of everyday moments. Check out the video below to learn more.
 
 <div class="video sixteen-nine">
-<iframe src="https://player.vimeo.com/video/110595675?color=c9ff23&title=0&byline=0&portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/3Yqo9UsOs0M?rel=0" frameborder="0" allow="encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="grd">
