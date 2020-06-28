@@ -7,18 +7,15 @@ title: Walkabout
 
 #### When
 
-Wednesday, Thursday & Friday
-July 24<sup>th</sup> - 26<sup>th</sup>
-6PM - 8PM
+The Week of July 27<sup>th</sup>
 
 #### Where
 
-<a href="https://www.google.com/maps/place/Newsong+Fellowship+Church/@38.8120508,-89.9581708,15z/data=!4m2!3m1!1s0x0:0xb5a515f369154b7c?sa=X&ved=0ahUKEwjlyJCV46fNAhVIRFIKHQPbDO0Q_BIIcTAN">Newsong Fellowship</a>
+Anywhere you are!
 
 #### Who
 
-Preschool (Ages 3-5)
-Elementary (K-5th Grade)
+Preschool (Ages 3-5) & Elementary (K-5th Grade)
 
 <!-- #### Mission
 
@@ -26,12 +23,12 @@ Elementary (K-5th Grade)
 
 ---
 
-<a href="https://forms.gle/AcqTiU575QYiQSfV8" class="btn--blue btn--l w100">Register for Walkabout</a>
+<a href="https://forms.gle/SgM6CSk1St1WM7a89" class="btn--blue btn--l w100">Register for Walkabout</a>
 
 ---
 
 ### Volunteer Opportunities
-You can help by <a href="https://forms.gle/qKckJNa7Ua5gmvRF9">volunteering your time</a> and <a href="https://m.facebook.com/events/1117750995073938/">sharing the event</a> with friends! We can't embark on this adventure without you!
+You can help by <a href="https://forms.gle/zxtVdeS7eWcByhQV9">volunteering your time</a> and <a href="https://www.facebook.com/events/1184673651875952/">sharing the event</a> with friends! We can't embark on this adventure without you!
 
 ---
 
