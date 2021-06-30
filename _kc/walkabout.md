@@ -7,15 +7,22 @@ title: Walkabout
 
 #### When
 
-The Week of July 27<sup>th</sup>
+Tuesday July 27<sup>th</sup> &ndash; Thursday July 29<sup>th</sup>
+From 6 &ndash; 8pm
 
 #### Where
 
-Anywhere you are!
+Newsong Fellowship
+[201 St. Louis Street in Edwardsville](https://goo.gl/maps/fsYB7yxegaUvCq7o8)
 
 #### Who
 
 Preschool (Ages 3-5) & Elementary (K-5th Grade)
+
+#### Family Afterparty at the Skate Center!
+
+We'll also have a special experience for the whole family at the [YMCA Skate Center](https://goo.gl/maps/xnruCSnfnwT4cVXv5)
+on Friday July 30<sup>th</sup>, from 6 &ndash; 8pm
 
 <!-- #### Mission
 
@@ -23,12 +30,12 @@ Preschool (Ages 3-5) & Elementary (K-5th Grade)
 
 ---
 
-<a href="https://forms.gle/SgM6CSk1St1WM7a89" class="btn--blue btn--l w100">Register for Walkabout</a>
+<a href="https://forms.gle/8WThbRk96GLXJFH89" class="btn--blue btn--l w100">Register for Walkabout</a>
 
 ---
 
 ### Volunteer Opportunities
-You can help by <a href="https://forms.gle/zxtVdeS7eWcByhQV9">volunteering your time</a> and <a href="https://www.facebook.com/events/1184673651875952/">sharing the event</a> with friends! We can't embark on this adventure without you!
+You can help by <a href="https://forms.gle/6iJCakFjZhREQ26w7">volunteering your time</a> and <a href="https://fb.me/e/Sa8rW8hZ">sharing the event</a> with friends! We can't embark on this adventure without you!
 
 ---
 
