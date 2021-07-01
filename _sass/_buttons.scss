@@ -1,7 +1,7 @@
 %btn--base {
-  @extend .brdr--rounded;
   padding: $padding/2 $padding;
   border: 2px solid #ccc;
+  border-radius: 13px;
   color: $font-color;
   text-decoration: none;
   text-align: center;
