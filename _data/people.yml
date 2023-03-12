@@ -68,13 +68,3 @@ alexa:
   profile: alexa.html
   ministry: epic
   order: 5
-
-jacque:
-  name: Jacque Burns
-  email: jacquedavisburns@gmail.com
-  phone: 618-363-1394
-  role: Middle School Girls Leader
-  photo: Jacque.jpg
-  profile:
-  ministry: epic
-  order: 6

@@ -15,11 +15,10 @@ Kingdom City can't run without volunteers! We'd love for you to join us as we in
 
 {% include accordion.html ministry="kc" filter="prek" %}
 
-
 #### Elementary <small>K to 5th Grade</small>
 
 {% include accordion.html ministry="kc" filter="elementary" %}
 
 ---
 
-<a href="mailto:lindsey.apple@newsong-fellowship.com?subject={{"Tell me more about Kingdom City" | uri_escape}}&body={{"Hi Lindsey, I would like information about how I can serve in Kingdom City." | uri_escape}}" class="btn--green btn--l w100">Contact Lindsey for More Info</a>
+<a href="mailto:kristina.heckelman@newsong-fellowship.com?subject={{"Tell me more about Kingdom City" | uri_escape}}&body={{"Hi Lindsey, I would like information about how I can serve in Kingdom City." | uri_escape}}" class="btn--green btn--l w100">Contact Kristina for More Info</a>
