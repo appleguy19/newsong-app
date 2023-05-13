@@ -7,7 +7,7 @@ title: Walkabout
 
 #### When
 
-Tuesday, June 28<sup>th</sup> &ndash; Friday, July 1<sup>st</sup>
+Tuesday, June 27<sup>th</sup> &ndash; Friday, June 30<sup>th</sup>
 From 6 &ndash; 8pm
 
 #### Where
