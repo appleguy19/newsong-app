@@ -10,13 +10,13 @@ grant:
   ministry: epic
   order: 1
 
-lindsey:
-  name: Lindsey Apple, MSW
+kristina:
+  name: Kristina Heckelman
   pastor: true
-  title: Associate Pastor
-  email: lindsey.apple@newsong-fellowship.com
+  title: Ministry Director
+  email: kristina.heckelman@newsong-fellowship.com
   phone:
-  photo: Lindsey.jpg
+  photo: Kristina.jpg
   ministry: kc
 
 mikhaela:
