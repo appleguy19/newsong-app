@@ -20,7 +20,7 @@ title: About
 
 ### Stay up to date!
 
-The Parent Cue App is a great way to keep up with what your kid is learning in Kingdom City. The app also provides simple <em>cues</em> throughout the week that remind you to pause and make the most of everyday moments. Check out the video below to learn more.
+The Parent Cue App is a great way to keep up with what your kid is learning in Kingdom City. The app also provides simple <em>cues</em> throughout the week that remind you to pause and make the most of everyday moments.
 
 <a href="https://parentcue.onelink.me/Q1MD/cec99eb6" class="btn--green btn--m w100">Download the Parent Cue app now!</a>
 
