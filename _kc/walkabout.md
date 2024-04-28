@@ -3,7 +3,7 @@ layout: page
 title: Walkabout
 ---
 
-<img alt="Walkabout" src="{{ site.baseurl }}/assets/start-the-party.png" />
+<img class="center" alt="Walkabout" src="{{ site.baseurl }}/assets/start-the-party.png" />
 
 #### When
 
