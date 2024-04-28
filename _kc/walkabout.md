@@ -3,12 +3,12 @@ layout: page
 title: Walkabout
 ---
 
-<img alt="Walkabout" src="{{ site.baseurl }}/assets/walkabout.png" />
+<img alt="Walkabout" src="{{ site.baseurl }}/assets/start-the-party.png" />
 
 #### When
 
-Tuesday, June 27<sup>th</sup> &ndash; Friday, June 30<sup>th</sup>
-From 6 &ndash; 8pm
+Tuesday, June 25<sup>th</sup> &ndash; Friday, June 27<sup>th</sup>
+From 6 &ndash; 8pm (doors open at 5:30pm)
 
 #### Where
 
